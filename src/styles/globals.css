@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Raleway:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+  --default-color: #594FB8;
+  --background: #F7F7F7;
+  --alternate-background: #F0EEFF;
+}

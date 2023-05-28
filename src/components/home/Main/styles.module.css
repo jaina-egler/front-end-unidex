@@ -1,0 +1,83 @@
+.main {
+    display: flex;
+    background-color: #594FB8;
+    align-items: center;
+    justify-content: center;
+    height: 930px;
+    width: 100%;
+}
+
+.main_text_image {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    padding-top: 147px;
+    padding-left: 140px;
+    z-index: 1;
+
+}
+
+.main_text_primary {
+    width: 364px;
+    height: 159px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #F7F7F7;
+
+}
+
+.main_text_secondary {
+    width: 250px;
+    height: 210px;
+    padding-top: 41px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #F7F7F7;
+}
+
+.main_image {
+    width: 55%;
+    height: 872px;
+    background: #342E6A;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.main_celular {
+    position: absolute;
+    width: 229px;
+    height: 443px;
+    right: 6%;
+    top: 50%;
+    background: url(/home/celular.png);
+    z-index: 2;
+}
+
+.main_computador {
+    position: absolute;
+    width: 817px;
+    height: 659px;
+    right: 4%;
+    top: 20%;
+    background: url(/home/computador.png);
+}

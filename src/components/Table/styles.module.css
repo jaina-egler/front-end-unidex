@@ -1,0 +1,40 @@
+.table{
+  background-color: var(--background);
+
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  border-spacing: 0;
+  /* alterações da jaina abaixo */
+  width: 97.7%;
+  margin-left:14px
+}
+
+.table_head{
+  background-color: var(--default-color);
+    
+  font-size: 16px ;
+  font-weight: bold;
+
+  color: var(--background);
+}
+
+.table_row td{
+  border-right: solid 1px var(--background);
+}
+
+.table_row td:last-child{
+  border-right: none;
+}
+
+.table_cell{
+  padding: 16px;
+
+  font-size: 14px;
+
+  text-align: center;
+}
+
+.table_body tr:nth-child(2n + 2){
+  background-color: var(--alternate-background);
+}

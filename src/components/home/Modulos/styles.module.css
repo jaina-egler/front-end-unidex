@@ -1,0 +1,22 @@
+.modulo {
+    display: flex;
+    background-color: #594FB8;
+    align-items: flex-start;
+    justify-content: center;
+    height: 930px;
+    width: 100%;
+}
+
+.text_primary {
+    padding-top: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
