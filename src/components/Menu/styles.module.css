@@ -1,0 +1,47 @@
+.containerMain {
+  width: 15%;
+  height: 100vh;
+  background-color: #594fb8;
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+}
+
+.navHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  border-bottom: 2px solid rgba(149,149,149, 0.7);
+  margin-bottom: 1.5rem;
+}
+
+.navHeaderDescTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: #F0EEFF;
+    margin-bottom: 0.3rem;
+}
+
+.navHeaderDescSubtitle{
+    font-size: 12px;
+    font-weight: 400;
+    color: #F0EEFF;
+}
+
+.containerArrow {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1.2rem;
+}
+
+.sairContainer  { 
+  height: 38vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}

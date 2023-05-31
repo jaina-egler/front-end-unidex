@@ -1,0 +1,41 @@
+.containerButton {
+  padding: 1rem;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  background-color: #342e6a;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.containerLink {
+    border-left: 1px solid white;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.linkList {
+  text-decoration: none;
+  color: #F0EEFF;
+  padding-left: 1rem;
+  height: 5rem;
+}
+
+/* without children */
+.containerButtonWC {
+    padding: 1rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.label {
+    text-decoration: none;
+    color: #F0EEFF;
+}
